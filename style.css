@@ -1,6 +1,12 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -15,7 +21,13 @@ h1 {
 
 section {
     display: flex;
-    padding: 2%;
+    margin-bottom: 150px;
+    padding: 5%;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 
 .half-width {
@@ -38,4 +50,10 @@ section {
 
 .description {
     margin-bottom: 35px;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
