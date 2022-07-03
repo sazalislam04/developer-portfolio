@@ -25,3 +25,17 @@ section {
 .half-width img {
     width: 80%;
 }
+
+.link-button {
+    padding: 10px 40px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, orange, tomato);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.description {
+    margin-bottom: 35px;
+}
