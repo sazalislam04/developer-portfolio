@@ -65,11 +65,11 @@ h1 {
 
 .title {
     margin-bottom: 5px;
-    color: orangered;
 }
 
 .ex-year {
     margin-bottom: 10px;
+    color: orangered;
 }
 
 .blue {
@@ -78,4 +78,42 @@ h1 {
 
 .section-title {
     padding: 0 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.experience-card {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 5px 40px grey;
+    padding: 20px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.experience-card:first-child {
+    border-left: 7px solid tomato;
+}
+
+.experience-card:last-child {
+    border-left: 7px solid blue;
+}
+
+.experience-card:hover {
+    transform: scale(1.1);
+}
+
+footer p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-size: left;
 }
