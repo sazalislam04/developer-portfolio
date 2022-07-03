@@ -19,7 +19,7 @@ h1 {
     color: orangered;
 }
 
-section {
+.d-flex {
     display: flex;
     margin-bottom: 150px;
     padding: 5%;
@@ -32,6 +32,11 @@ section {
 
 .half-width {
     width: 50%;
+}
+
+.gap {
+    margin-right: 30px;
+    padding: 10px 20px;
 }
 
 .half-width img {
@@ -56,4 +61,21 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.title {
+    margin-bottom: 5px;
+    color: orangered;
+}
+
+.ex-year {
+    margin-bottom: 10px;
+}
+
+.blue {
+    color: blue;
+}
+
+.section-title {
+    padding: 0 50px;
 }
